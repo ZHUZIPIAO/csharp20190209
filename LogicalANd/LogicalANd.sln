@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicalANd", "LogicalANd\LogicalANd.csproj", "{C159E3E3-22AF-44F4-B0A1-9785A221EBDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C159E3E3-22AF-44F4-B0A1-9785A221EBDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C159E3E3-22AF-44F4-B0A1-9785A221EBDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C159E3E3-22AF-44F4-B0A1-9785A221EBDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C159E3E3-22AF-44F4-B0A1-9785A221EBDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E66A859-73B8-43E5-AEFF-0139A44480E3}
+	EndGlobalSection
+EndGlobal

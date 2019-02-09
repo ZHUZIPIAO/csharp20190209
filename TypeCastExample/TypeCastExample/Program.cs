@@ -10,6 +10,9 @@ namespace TypeCastExample
     {
         public static void Main()
         {
+            var v = 5; //Type을 모를떄 var 를쓰면된다 
+            //var 특징은 변수의선언과초기화를 한줄에 할때만쓸수 있음 
+
             int a = 50000;
             try
             {
