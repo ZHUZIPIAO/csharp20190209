@@ -8,20 +8,18 @@ namespace _2DayEx4
 {
     class Program
     {
-        
         static void Main(string[] args)
         {
-
             Console.WriteLine("두 수를입력하세요");
 
             string str= Console.ReadLine();
 
             string[] strr = str.Split(',');
             int[] num = new int[2];
-            for(int i=0; i<strr.Length; i++)
+            for(int k=0; k<strr.Length; k++)
             {
                 
-                bool isNum = int.TryParse(strr[i], out num[i]);
+                bool isNum = int.TryParse(strr[k], out num[k]);
 
                 if (isNum == false)
                 {
@@ -30,23 +28,30 @@ namespace _2DayEx4
                 
             }
 
-            int temp = 0;
+            int i = 0;
 
             if (num[0] > num[1])
             {
-                temp = num[0];
+                i = num[0];
                 num[0] = num[1];
-                num[1] = temp;
+                num[1] = i;
             }
             int sum = 0;
-            bool isPrime = true;
-
-            for (int i=num[0]; i<=num[1]; i++)
+           for(; num[0]<= num[1];  num[0]++)
             {
-
-
-
+                for(i=2; i<=num[0]; i++)
+                {
+                    if (num[0] % i == 0)
+                    {
+                        break;
+                    }
+                }
+                if (num[0] == i)
+                {
+                    sum = sum + num[0];
+                }
             }
+
             Console.WriteLine(sum);
 
         }
