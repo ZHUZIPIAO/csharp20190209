@@ -8,8 +8,10 @@ namespace _2DayEx4
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
+
             Console.WriteLine("두 수를입력하세요");
 
             string str= Console.ReadLine();
@@ -37,18 +39,13 @@ namespace _2DayEx4
                 num[1] = temp;
             }
             int sum = 0;
-            for(int i=num[0]; i<=num[1]; i++)
+            bool isPrime = true;
+
+            for (int i=num[0]; i<=num[1]; i++)
             {
-               for(int j=2; j<i; j++)
-                {
-                    if (i % j == 0)
-                    {
-                        break;
-                    }
-                     
-                }
-                sum = sum + i;
-                Console.WriteLine(sum);
+
+
+
             }
             Console.WriteLine(sum);
 
