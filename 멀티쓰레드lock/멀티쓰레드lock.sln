@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "멀티쓰레드lock", "멀티쓰레드lock\멀티쓰레드lock.csproj", "{36F75B9C-56E9-4B0C-B159-6707EF858274}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36F75B9C-56E9-4B0C-B159-6707EF858274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F75B9C-56E9-4B0C-B159-6707EF858274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F75B9C-56E9-4B0C-B159-6707EF858274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F75B9C-56E9-4B0C-B159-6707EF858274}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E53630A-390F-4547-A52C-E1CA10ABCB0C}
+	EndGlobalSection
+EndGlobal
