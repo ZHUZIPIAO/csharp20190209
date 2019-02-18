@@ -36,8 +36,9 @@ namespace 문제4
 
             //name 은 현재 다른것이다 해주려면 
             //this.name=name 해줘야함 get set 을 재정의해야함
-            get;
-            set;
+
+            get { return this.name; }
+            set { this.name = value; }
 
         }
 
@@ -56,7 +57,7 @@ namespace 문제4
         public override string ToString()
         {
 
-            return ($"student Info:Code ={this.code},Name:={Name},Age={Age}");
+            return ($"student Info:Code ={this.Code},Name:={Name},Age={Age}");
 
         }
 
