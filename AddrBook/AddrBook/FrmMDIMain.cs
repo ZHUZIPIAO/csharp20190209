@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace AddrBook
+{
+    public partial class FrmMDIMain : Form
+    {
+        
+        public FrmMDIMain()
+        {
+            InitializeComponent();
+        }
+
+        private void FrmMDIMain_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
